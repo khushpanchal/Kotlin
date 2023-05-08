@@ -1,6 +1,6 @@
 package com.example.kotlin
 
-class Main
+class Delegation
 
 interface Action {
     fun eat()
