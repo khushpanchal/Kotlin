@@ -6,7 +6,7 @@ import android.graphics.Canvas
 import android.graphics.Path
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
-import com.khush.news.R
+import com.example.kotlin.R
 
 class CircularImageView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defSyleAttr: Int = 0):
     AppCompatImageView(context, attrs, defSyleAttr) {
