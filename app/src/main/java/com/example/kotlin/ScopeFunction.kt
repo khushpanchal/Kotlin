@@ -1,11 +1,11 @@
 package com.example.kotlin
 
 /**
- * let   -  T.let(block: (T) -> R): R             ------- {it-> },         Returns last line
- * run   -  T.run(block: T.() -> R): R  {}        ------- //object itself, Returns nothing
- * also  - T.also(block: (T) -> Unit): T          ------- {it-> },         Returns last line
- * apply - T.also(block: T.() -> Unit): T {}      ------- //object itself, Returns nothing
- * with  - with(receiver: T, block: T.() -> R): R ------- //object itself, Returns last line
+ * let   -  T.let(block: (T) -> R): R              ------- {it-> },         Returns last line
+ * run   -  T.run(block: T.() -> R): R             ------- //object itself, Returns last line
+ * also  -  T.also(block: (T) -> Unit): T          ------- {it-> },         Returns nothing
+ * apply -  T.apply(block: T.() -> Unit): T        ------- //object itself, Returns nothing
+ * with  -  with(receiver: T, block: T.() -> R): R ------- //object itself, Returns last line
  */
 
 fun main() {
